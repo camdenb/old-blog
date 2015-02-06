@@ -1,4 +1,4 @@
-{% include header.html %}
+{% include header.html %} 
 
       <div class="row header">
         <div class="twelve column ">
@@ -17,15 +17,13 @@
       <div class='row'>
         <div class='two column'>
           <ul class='posts'>
-            {% for post in site.posts %}
               <li class='post'>
-                <a href="{{ post.url }}" class='post-title'>{{ post.title }}</a>
-                <div class='post-date'>{{ post.date | date: "%-d %B %Y" }}</div>
+                <a href="{{ post.url }}" class='post-title'>{{ page.title }}</a>
+                <div class='post-date'>{{ page.date | date: "%-d %B %Y" }}</div>
                 <div class='post-excerpt'>
-                {{ post.excerpt }}
+                  {{ content }}
                 </div>
               </li>
-            {% endfor %}
           </ul>
         </div>
       </div>
