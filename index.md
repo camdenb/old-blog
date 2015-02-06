@@ -1,6 +1,5 @@
 ---
-title: duckies
+title: Camden Bickel
 layout: default
 ---
 
-# ducks

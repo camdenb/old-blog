@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.divider {
+	width: 35rem;
+	margin: 1rem auto;
+}
+
+.post-title {
+	font-size: 2.5rem;
+}
+
+.post-date {
+	font-size: 1.5rem;
+	font-style: oblique;
+	padding-bottom: 10px;
+}
+
+.post-excerpt {
+	text-align: left;
+	width: 35rem;
+	margin: 0 auto;
+}
+
+.header {
+	margin-top: 1%;
+	text-align: center;
+}
+
+.header h4 {
+	font-size: 4rem;
+	margin-bottom: 0;
+}
+
+.link-container {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.link-list {
+	margin-bottom: 0;
+}
+
+.link-list li {
+	display: inline;
+	text-transform: uppercase;
+	padding: 0 15px;
+}
+
+.link-list a {
+	color: rgb(82, 82, 82);
+}
+
+a {
+	text-decoration: none;
+}
+
+.post {
+	list-style: none;
+	margin: 5rem 0;
+}
+
+.posts {
+	text-align: center;
+}
+
+.post-title {
+	display: inline-block;
+	text-align: left;
+}
